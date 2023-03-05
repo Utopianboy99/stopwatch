@@ -60,6 +60,9 @@ span#milliseconds{
     text-align: center;
     margin-top: 3rem;
 }
+.footer i{
+    margin: 0.5rem;
+}
 .footer .social{
     margin-top: 1rem;
     text-align: center;
@@ -67,5 +70,4 @@ span#milliseconds{
 .social i{
     font-size: 24px;
     color: #fff;
-    margin-left: 1rem;
 }
