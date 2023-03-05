@@ -31,10 +31,10 @@
 
      btnReset.onclick = function() {
         clearInterval(interval);
-        milliseconds + "0";
-        seconds +":0";
-        minutes + ":0";
-        hour + "0";
+        milliseconds = 0 + "0";
+        seconds = 0 +":0";
+        minutes= 0 + ":0";
+        hour= 0 + "0";
         ms.innerHTML = milliseconds;
         sec.innerHTML = seconds;
         min.innerHTML = minutes;
