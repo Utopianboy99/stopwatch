@@ -36,8 +36,8 @@
         minutes= 0;
         hour= 0;
         ms.innerHTML = milliseconds + "0";
-        sec.innerHTML = seconds + "0";
-        min.innerHTML = minutes + "0";
+        sec.innerHTML = ":" + seconds + "0";
+        min.innerHTML = ":" + minutes + "0";
         hr.innerHTML = hour + "0";
      } 
     
