@@ -54,7 +54,7 @@
           } 
         
         if (milliseconds > 99) {
-          seconds = 0;
+
           seconds++;
           sec.innerHTML = ":0" + seconds;
           milliseconds = 0;
